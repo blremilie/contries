@@ -1,0 +1,124 @@
+/*Début définition de la police*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+/*Fin définition de la police*/
+
+/*Début définition style de base*/
+
+*,::before, *::after {
+    box-sizing: border-box;
+}
+*{
+  margin: 0;
+  font-size: calc(16px + 0.390625vw);
+}
+
+html {
+    height: 100%; 
+    width: 100%; 
+    background-color: hsl(207, 26%, 17%);
+}
+
+nav{
+    background-color: hsl(209, 23%, 22%);
+    width: 100%;
+    height: 40%;
+    padding: 2%;
+    border-bottom: 20px;
+}
+
+h1{
+    color: white;
+    font-family: Nunito Sans;
+    font-weight: 800;
+    font-size: 25px;
+    margin-left: 3%;
+}
+
+select{
+    width: 100%;
+    height: 100%;
+    background-color: hsl(209, 23%, 22%);
+    color:white;
+    font-family: Nunito Sans;
+    font-size: 20px;
+    padding: 7%;
+    border: none;
+    border-radius: 5px;
+}
+
+/*Fin définition style de base*/
+
+/*Début définition style high*/
+
+#high{
+    width: 100%;
+    height: 1000%;
+    padding: 4%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*Fin définition style high*/
+
+/*Début définition style search*/
+
+#search{
+    display: flex;
+    flex-direction:row;
+    width: 70%;
+    height: 100%;
+}
+
+/*Fin définition style search*/
+
+/*Début définition style loupe*/
+
+#loupe{
+    width: 10%;
+    height: 100%;
+    font-size: 20px;
+    background-color: hsl(209, 23%, 22%);
+    border: none;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+#loupe .fa-search {
+    color: white; 
+    font-size: 25px;
+    padding: 17%;
+}
+
+/*Fin définition style loupe*/
+
+/*Début dénition style research*/
+
+#research{
+    width: 40%;
+    height: 100%;
+    background-color: hsl(209, 23%, 22%);
+    color:white;
+    border:none;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    padding: 1.5%;
+}
+
+::placeholder{
+    color:white;
+    font-size: 18px;
+    font-family: Nunito Sans;
+}
+
+/*Fin définition style research*/
+
+/*Début définition style filter*/
+
+#filter{
+    width: 20%;
+    height: 100%;
+}
+
+/*Fin définition style filter*/
+
